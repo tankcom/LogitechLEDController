@@ -1,0 +1,599 @@
+﻿{
+  "KeyboardName": "Logitech G910 Orion Spectrum",
+  "LayoutName": "US ANSI Layout",
+  "KeyboardKeys": {
+    "Rows": [
+      [
+        {
+          "Code": 65526,
+          "Label": "G6",
+          "Name": "G_6"
+        },
+        {
+          "Code": 65527,
+          "Label": "G7",
+          "Name": "G_7"
+        },
+        {
+          "Code": 65528,
+          "Label": "G8",
+          "Name": "G_8"
+        },
+        {
+          "Code": 65529,
+          "Label": "G9",
+          "Name": "G_9"
+        }
+      ],
+      [
+        {
+          "Code": 1048561,
+          "Label": "G Logo",
+          "Name": "G_LOGO"
+        },
+        {
+          "Code": 1,
+          "Label": "Escape",
+          "Name": "ESC"
+        },
+        {
+          "Code": 59,
+          "Label": "F1",
+          "Name": "F1"
+        },
+        {
+          "Code": 60,
+          "Label": "F2",
+          "Name": "F2"
+        },
+        {
+          "Code": 61,
+          "Label": "F3",
+          "Name": "F3"
+        },
+        {
+          "Code": 62,
+          "Label": "F4",
+          "Name": "F4"
+        },
+        {
+          "Code": 63,
+          "Label": "F5",
+          "Name": "F5"
+        },
+        {
+          "Code": 64,
+          "Label": "F6",
+          "Name": "F6"
+        },
+        {
+          "Code": 65,
+          "Label": "F7",
+          "Name": "F7"
+        },
+        {
+          "Code": 66,
+          "Label": "F8",
+          "Name": "F8"
+        },
+        {
+          "Code": 67,
+          "Label": "F9",
+          "Name": "F9"
+        },
+        {
+          "Code": 68,
+          "Label": "F10",
+          "Name": "F10"
+        },
+        {
+          "Code": 87,
+          "Label": "F11",
+          "Name": "F11"
+        },
+        {
+          "Code": 88,
+          "Label": "F12",
+          "Name": "F12"
+        },
+        {
+          "Code": 311,
+          "Label": "Print Screen",
+          "Name": "PRINT_SCREEN"
+        },
+        {
+          "Code": 70,
+          "Label": "Scroll Lock",
+          "Name": "SCROLL_LOCK"
+        },
+        {
+          "Code": 69,
+          "Label": "Pause",
+          "Name": "PAUSE_BREAK"
+        }
+      ],
+      [
+        {
+          "Code": 65521,
+          "Label": "G1",
+          "Name": "G_1"
+        },
+        {
+          "Code": 41,
+          "Label": "~",
+          "Name": "TILDE"
+        },
+        {
+          "Code": 2,
+          "Label": "1",
+          "Name": "1"
+        },
+        {
+          "Code": 3,
+          "Label": "2",
+          "Name": "2"
+        },
+        {
+          "Code": 4,
+          "Label": "3",
+          "Name": "3"
+        },
+        {
+          "Code": 5,
+          "Label": "4",
+          "Name": "4"
+        },
+        {
+          "Code": 6,
+          "Label": "5",
+          "Name": "5"
+        },
+        {
+          "Code": 7,
+          "Label": "6",
+          "Name": "6"
+        },
+        {
+          "Code": 8,
+          "Label": "7",
+          "Name": "7"
+        },
+        {
+          "Code": 9,
+          "Label": "8",
+          "Name": "8"
+        },
+        {
+          "Code": 10,
+          "Label": "9",
+          "Name": "9"
+        },
+        {
+          "Code": 11,
+          "Label": "0",
+          "Name": "0"
+        },
+        {
+          "Code": 12,
+          "Label": "-",
+          "Name": "MINUS"
+        },
+        {
+          "Code": 13,
+          "Label": "=",
+          "Name": "EQUALS"
+        },
+        {
+          "Code": 14,
+          "Label": "Backspace",
+          "Name": "BACKSPACE"
+        },
+        {
+          "Code": 338,
+          "Label": "Insert",
+          "Name": "INSERT"
+        },
+        {
+          "Code": 327,
+          "Label": "Home",
+          "Name": "HOME"
+        },
+        {
+          "Code": 329,
+          "Label": "Page Up",
+          "Name": "PAGE_UP"
+        },
+        {
+          "Code": 325,
+          "Label": "Numlock",
+          "Name": "NUM_LOCK"
+        },
+        {
+          "Code": 309,
+          "Label": "Numpad Slash",
+          "Name": "NUM_SLASH"
+        },
+        {
+          "Code": 55,
+          "Label": "Numpad Asterisk",
+          "Name": "NUM_ASTERISK"
+        },
+        {
+          "Code": 74,
+          "Label": "Numpad Minus",
+          "Name": "NUM_MINUS"
+        }
+      ],
+      [
+        {
+          "Code": 65522,
+          "Label": "G2",
+          "Name": "G_2"
+        },
+        {
+          "Code": 15,
+          "Label": "Tabulator",
+          "Name": "TAB"
+        },
+        {
+          "Code": 16,
+          "Label": "Q",
+          "Name": "Q"
+        },
+        {
+          "Code": 17,
+          "Label": "W",
+          "Name": "W"
+        },
+        {
+          "Code": 18,
+          "Label": "E",
+          "Name": "E"
+        },
+        {
+          "Code": 19,
+          "Label": "R",
+          "Name": "R"
+        },
+        {
+          "Code": 20,
+          "Label": "T",
+          "Name": "T"
+        },
+        {
+          "Code": 21,
+          "Label": "Y",
+          "Name": "Y"
+        },
+        {
+          "Code": 22,
+          "Label": "U",
+          "Name": "U"
+        },
+        {
+          "Code": 23,
+          "Label": "I",
+          "Name": "I"
+        },
+        {
+          "Code": 24,
+          "Label": "O",
+          "Name": "O"
+        },
+        {
+          "Code": 25,
+          "Label": "P",
+          "Name": "P"
+        },
+        {
+          "Code": 26,
+          "Label": "[",
+          "Name": "OPEN_BRACKET"
+        },
+        {
+          "Code": 27,
+          "Label": "]",
+          "Name": "CLOSE_BRACKET"
+        },
+        {
+          "Code": 43,
+          "Label": "\\",
+          "Name": "BACKSLASH"
+        },
+        {
+          "Code": 339,
+          "Label": "Delete",
+          "Name": "KEYBOARD_DELETE"
+        },
+        {
+          "Code": 335,
+          "Label": "End",
+          "Name": "END"
+        },
+        {
+          "Code": 337,
+          "Label": "Page Down",
+          "Name": "PAGE_DOWN"
+        },
+        {
+          "Code": 71,
+          "Label": "Numpad 7",
+          "Name": "NUM_SEVEN"
+        },
+        {
+          "Code": 72,
+          "Label": "Num 8",
+          "Name": "NUM_EIGHT"
+        },
+        {
+          "Code": 73,
+          "Label": "Numpad 9",
+          "Name": "NUM_NINE"
+        },
+        {
+          "Code": 78,
+          "Label": "Numpad Plus",
+          "Name": "NUM_PLUS"
+        }
+      ],
+      [
+        {
+          "Code": 65523,
+          "Label": "G3",
+          "Name": "G_3"
+        },
+        {
+          "Code": 74,
+          "Label": "Capslock",
+          "Name": "CAPS_LOCK"
+        },
+        {
+          "Code": 30,
+          "Label": "A",
+          "Name": "A"
+        },
+        {
+          "Code": 31,
+          "Label": "S",
+          "Name": "S"
+        },
+        {
+          "Code": 32,
+          "Label": "D",
+          "Name": "D"
+        },
+        {
+          "Code": 33,
+          "Label": "F",
+          "Name": "F"
+        },
+        {
+          "Code": 34,
+          "Label": "G",
+          "Name": "G"
+        },
+        {
+          "Code": 35,
+          "Label": "H",
+          "Name": "H"
+        },
+        {
+          "Code": 36,
+          "Label": "J",
+          "Name": "J"
+        },
+        {
+          "Code": 37,
+          "Label": "K",
+          "Name": "K"
+        },
+        {
+          "Code": 38,
+          "Label": "L",
+          "Name": "L"
+        },
+        {
+          "Code": 39,
+          "Label": ";",
+          "Name": "SEMICOLON"
+        },
+        {
+          "Code": 40,
+          "Label": "'",
+          "Name": "APOSTROPHE"
+        },
+        {
+          "Code": 28,
+          "Label": "Enter",
+          "Name": "ENTER"
+        },
+        {
+          "Code": 75,
+          "Label": "Numpad 4",
+          "Name": "NUM_FOUR"
+        },
+        {
+          "Code": 76,
+          "Label": "Numpad 5",
+          "Name": "NUM_FIVE"
+        },
+        {
+          "Code": 77,
+          "Label": "Numpad 6",
+          "Name": "NUM_SIX"
+        }
+      ],
+      [
+        {
+          "Code": 65524,
+          "Label": "G4",
+          "Name": "G_4"
+        },
+        {
+          "Code": 42,
+          "Label": "Left Shift",
+          "Name": "LEFT_SHIFT"
+        },
+        {
+          "Code": 44,
+          "Label": "Z",
+          "Name": "Z"
+        },
+        {
+          "Code": 45,
+          "Label": "X",
+          "Name": "X"
+        },
+        {
+          "Code": 46,
+          "Label": "C",
+          "Name": "C"
+        },
+        {
+          "Code": 47,
+          "Label": "V",
+          "Name": "V"
+        },
+        {
+          "Code": 48,
+          "Label": "B",
+          "Name": "B"
+        },
+        {
+          "Code": 49,
+          "Label": "N",
+          "Name": "N"
+        },
+        {
+          "Code": 50,
+          "Label": "M",
+          "Name": "M"
+        },
+        {
+          "Code": 51,
+          "Label": ",",
+          "Name": "COMMA"
+        },
+        {
+          "Code": 52,
+          "Label": ".",
+          "Name": "PERIOD"
+        },
+        {
+          "Code": 53,
+          "Label": "/",
+          "Name": "FORWARD_SLASH"
+        },
+        {
+          "Code": 54,
+          "Label": "Right Shift",
+          "Name": "RIGHT_SHIFT"
+        },
+        {
+          "Code": 328,
+          "Label": "Up Arrow",
+          "Name": "ARROW_UP"
+        },
+        {
+          "Code": 79,
+          "Label": "Numpad 1",
+          "Name": "NUM_ONE"
+        },
+        {
+          "Code": 80,
+          "Label": "Numpad 2",
+          "Name": "NUM_TWO"
+        },
+        {
+          "Code": 81,
+          "Label": "Numpad 3",
+          "Name": "NUM_THREE"
+        },
+        {
+          "Code": 284,
+          "Label": "Numpad Enter",
+          "Name": "NUM_ENTER"
+        }
+      ],
+      [
+        {
+          "Code": 65525,
+          "Label": "G5",
+          "Name": "G_5"
+        },
+        {
+          "Code": 29,
+          "Label": "Right Control",
+          "Name": "RIGHT_CONTROL"
+        },
+        {
+          "Code": 344,
+          "Label": "Left Windows",
+          "Name": "LEFT_WINDOWS"
+        },
+        {
+          "Code": 56,
+          "Label": "Left Alt",
+          "Name": "LEFT_ALT"
+        },
+        {
+          "Code": 57,
+          "Label": "Space",
+          "Name": "SPACE"
+        },
+        {
+          "Code": 312,
+          "Label": "Right Alt",
+          "Name": "RIGHT_ALT"
+        },
+        {
+          "Code": 348,
+          "Label": "Right Windows",
+          "Name": "RIGHT_WINDOWS"
+        },
+        {
+          "Code": 349,
+          "Label": "Context Menu",
+          "Name": "APPLICATION_SELECT"
+        },
+        {
+          "Code": 285,
+          "Label": "Right Control",
+          "Name": "RIGHT_CONTROL"
+        },
+        {
+          "Code": 331,
+          "Label": "Left Arrow",
+          "Name": "ARROW_LEFT"
+        },
+        {
+          "Code": 336,
+          "Label": "Down Arrow",
+          "Name": "ARROW_DOWN"
+        },
+        {
+          "Code": 333,
+          "Label": "Right Arrow",
+          "Name": "ARROW_RIGHT"
+        },
+        {
+          "Code": 82,
+          "Label": "Numpad 0",
+          "Name": "NUM_ZERO"
+        },
+        {
+          "Code": 83,
+          "Label": "Numpad Period",
+          "Name": "NUM_PERIOD"
+        }
+      ],
+      [
+        {
+          "Code": 1048562,
+          "Label": "G910",
+          "Name": "G_BADGE"
+        }
+      ]
+    ]
+  }
+}
