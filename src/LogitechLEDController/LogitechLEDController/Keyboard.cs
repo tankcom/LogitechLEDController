@@ -8,7 +8,7 @@ namespace LogitechLEDController
         public string KeyboardName { get; set; }
         public string LayoutName { get; set; }
 
-        private Key[,] keys;
+        private Key[][] keys;
         private LogitechLEDSDKWrapper sdk;
 
         public Keyboard(string keyboardName, string layoutName)
@@ -64,7 +64,7 @@ namespace LogitechLEDController
                 default:
                     return null; // what to do here
             }
-        }
+    }
 
         public KeyCoordinates GetCoordinatesOfKey(Key key)
         {
@@ -80,7 +80,7 @@ namespace LogitechLEDController
         {
             try 
             {
-                return keys[x, y];
+                return keys[x][y];
             }
             catch(IndexOutOfRangeException)
             {
@@ -88,7 +88,7 @@ namespace LogitechLEDController
             }
         }
 
-        public void SetKeys(Key[,] newKeys)
+        public void SetKeys(Key[][] newKeys)
         {
             // Previous keys will be overwritten!
             keys = newKeys;
