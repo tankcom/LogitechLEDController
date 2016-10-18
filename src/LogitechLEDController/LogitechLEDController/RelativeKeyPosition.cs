@@ -1,6 +1,6 @@
 namespace LogitechLEDController
 {
-    public enum KeyPosition
+    public enum RelativeKeyPosition
     {
         TOP_LEFT = 0,
         TOP_CENTER = 1,
@@ -13,3 +13,4 @@ namespace LogitechLEDController
         BOTTOM_RIGHT = 8,
 
     }
+}

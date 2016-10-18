@@ -25,9 +25,67 @@ namespace LogitechLEDController
             sdk = new LogitechLEDSDKWrapper();
         }
 
-        public Key getNeightbour(Key key, KeyPosition pos)
+        public Key GetNeightbourOfKey(Key key, RelativeKeyPosition pos)
         {
-            
+
+            switch (pos)
+            {
+                var coordinates = GetCoordinatesOfKey(key);
+                case RelativeKeyPosition.TOP_LEFT:
+                    coordinates.X--;
+                    coordinates.Y--;
+                    return GetKeyByCoordinates(coordinates);
+                case RelativeKeyPosition.TOP_CENTER:
+                    coordinates.Y--;
+                    return GetKeyByCoordinates(coordinates);
+                case RelativeKeyPosition.TOP_RIGHT:
+                    coordinates.X++;
+                    coordinates.Y--;
+                    return GetKeyByCoordinates(coordinates);
+                case RelativeKeyPosition.LEFT:
+                    coordinates.X--;
+                    return GetKeyByCoordinates(coordinates);
+                case RelativeKeyPosition.CENTER:
+                    return key;
+                case RelativeKeyPosition.RIGHT:
+                    coordinates.X++;
+                    return GetKeyByCoordinates(coordinates);
+                case RelativeKeyPosition.BOTTOM_LEFT:
+                    coordinates.X--;
+                    coordinates.Y++;
+                    return GetKeyByCoordinates(coordinates);
+                case RelativeKeyPosition.BOTTOM_CENTER:
+                    coordinates.Y++;
+                    return GetKeyByCoordinates(coordinates);
+                case RelativeKeyPosition.BOTTOM_RIGHT:
+                    coordinates.X++;
+                    coordinates.Y++;
+                    return GetKeyByCoordinates(coordinates);
+                default:
+                    return null; // what to do here
+            }
+        }
+
+        public KeyCoordinates GetCoordinatesOfKey(Key key)
+        {
+            return new KeyCoordinates(0, 0);
+        }
+
+        public Key GetKeyByCoordinates(KeyCoordinates coords)
+        {
+            return GetKeyByCoordinates(coords.X, coords.Y);
+        }
+
+        public Key GetKeyByCoordinates(int x, int y)
+        {
+            try 
+            {
+                return keys[x, y];
+            }
+            catch(IndexOutOfRangeException)
+            {
+                return null;
+            }
         }
 
         public void SetKeys(Key[,] newKeys)

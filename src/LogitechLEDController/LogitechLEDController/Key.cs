@@ -22,10 +22,10 @@ namespace LogitechLEDController
             keyboard = null;
         }
 
-        public Key GetNeighbour(KeyPosition pos)
+        public Key GetNeighbour(RelativeKeyPosition pos)
         {
-            if (pos == KeyPosition.CENTER) return this;
-            return keyboard.getNeightbour(this, pos);
+            if (pos == RelativeKeyPosition.CENTER) return this;
+            return keyboard.GetNeightbourOfKey(this, pos);
         }
     }
 }
