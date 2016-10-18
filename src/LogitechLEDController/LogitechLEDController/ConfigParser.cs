@@ -21,13 +21,13 @@ namespace LogitechLEDController
             {
                 return null; // TODO handle exceptions
             }
-            return ConfigParser.ParseConfigFromString(content);
+            return ParseConfigFromString(content);
         }
 
         public static Keyboard ParseConfigFromString(string json)
         {
-            try
-            {
+            
+            
                 const int MaxRowsOnKeyboard = 10; // extract to config file?
                 const int MaxElementsInRow  = 150;
 
@@ -39,10 +39,10 @@ namespace LogitechLEDController
                 Key[][] keys = new Key[MaxRowsOnKeyboard][];
                 var rows = config.KeyboardKeys.Rows;
 
-                int x = 0;
                 int y = 0;
                 foreach(var row in rows)
                 {
+                    int x = 0;
                     var rowElements = new Key[MaxElementsInRow];
                     foreach(var key in row)
                     {
@@ -64,15 +64,8 @@ namespace LogitechLEDController
                     keys[y] = rowElements;
                     y++;
                 }
-
-                keyboard.SetKeys(keys);
-                return keyboard;
-            }
-            catch(Exception e)
-            {
-                return null; // TODO handle exceptions
-            }
-            return null;
+            keyboard.SetKeys(keys);
+            return keyboard;
         }
     }
 }

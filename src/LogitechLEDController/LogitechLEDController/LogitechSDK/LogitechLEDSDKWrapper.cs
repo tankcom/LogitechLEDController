@@ -19,5 +19,6 @@ namespace LogitechLEDController
         {
             LogitechGSDK.LogiLedSetLighting(red, green, blue);
         }
+        
     }
 }

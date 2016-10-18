@@ -186,11 +186,11 @@
         },
         {
           "Code": 41,
-          "Label": "~",
-          "Name": "TILDE",
+          "Label": "^",
+          "Name": "CIRCONFLEXE",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "~`"
+          "PrintableCharacters": "^°"
         },
         {
           "Code": 2,
@@ -206,7 +206,7 @@
           "Name": "2",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "2@"
+          "PrintableCharacters": "2\""
         },
         {
           "Code": 4,
@@ -214,7 +214,7 @@
           "Name": "3",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "3#"
+          "PrintableCharacters": "3§"
         },
         {
           "Code": 5,
@@ -238,7 +238,7 @@
           "Name": "6",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "6^"
+          "PrintableCharacters": "6&"
         },
         {
           "Code": 8,
@@ -246,7 +246,7 @@
           "Name": "7",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "7&"
+          "PrintableCharacters": "7/"
         },
         {
           "Code": 9,
@@ -254,7 +254,7 @@
           "Name": "8",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "8*"
+          "PrintableCharacters": "8("
         },
         {
           "Code": 10,
@@ -262,7 +262,7 @@
           "Name": "9",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "9("
+          "PrintableCharacters": "9)"
         },
         {
           "Code": 11,
@@ -270,23 +270,23 @@
           "Name": "0",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "0)"
+          "PrintableCharacters": "0="
         },
         {
           "Code": 12,
-          "Label": "-",
-          "Name": "MINUS",
+          "Label": "ß",
+          "Name": "ESZETT",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "-_"
+          "PrintableCharacters": "ß?"
         },
         {
           "Code": 13,
-          "Label": "=",
-          "Name": "EQUALS",
+          "Label": "´",
+          "Name": "AIGU",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "=+"
+          "PrintableCharacters": "´`"
         },
         {
           "Code": 14,
@@ -412,11 +412,11 @@
         },
         {
           "Code": 21,
-          "Label": "Y",
-          "Name": "Y",
+          "Label": "Z",
+          "Name": "Z",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "y"
+          "PrintableCharacters": "z"
         },
         {
           "Code": 22,
@@ -452,27 +452,27 @@
         },
         {
           "Code": 26,
-          "Label": "[",
-          "Name": "OPEN_BRACKET",
+          "Label": "Ü",
+          "Name": "UE",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "[{"
+          "PrintableCharacters": "ü"
         },
         {
           "Code": 27,
-          "Label": "]",
-          "Name": "CLOSE_BRACKET",
+          "Label": "+",
+          "Name": "PLUS",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "]}"
+          "PrintableCharacters": "+*"
         },
         {
-          "Code": 43,
-          "Label": "\\",
-          "Name": "BACKSLASH",
-          "Width": 1.5,
-          "Height": 1,
-          "PrintableCharacters": "\\|"
+          "Code": 28,
+          "Label": "Enter",
+          "Name": "ENTER",
+          "Width": 2,
+          "Height": 2,
+          "PrintableCharacters": ""
         },
         {
           "Code": 339,
@@ -622,27 +622,27 @@
         },
         {
           "Code": 39,
-          "Label": ";",
-          "Name": "SEMICOLON",
+          "Label": "Ö",
+          "Name": "OE",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": ";:"
+          "PrintableCharacters": "ö"
         },
         {
           "Code": 40,
-          "Label": "'",
-          "Name": "APOSTROPHE",
+          "Label": "Ä",
+          "Name": "AE",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "'\""
+          "PrintableCharacters": "ä"
         },
         {
-          "Code": 28,
-          "Label": "Enter",
-          "Name": "ENTER",
-          "Width": 2,
+          "Code": 94,
+          "Label": "#",
+          "Name": "HASHSIGN",
+          "Width": 1,
           "Height": 1,
-          "PrintableCharacters": ""
+          "PrintableCharacters": "#'"
         },
         {
           "Code": 75,
@@ -682,17 +682,18 @@
           "Code": 42,
           "Label": "Left Shift",
           "Name": "LEFT_SHIFT",
-          "Width": 3,
+          "Width": 2,
           "Height": 1,
           "PrintableCharacters": ""
         },
+
         {
           "Code": 44,
-          "Label": "Z",
-          "Name": "Z",
+          "Label": "Y",
+          "Name": "Y",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "z"
+          "PrintableCharacters": "y"
         },
         {
           "Code": 45,
@@ -748,7 +749,7 @@
           "Name": "COMMA",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": ",<"
+          "PrintableCharacters": ",;"
         },
         {
           "Code": 52,
@@ -756,15 +757,15 @@
           "Name": "PERIOD",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": ".>"
+          "PrintableCharacters": ".:"
         },
         {
           "Code": 53,
-          "Label": "/",
-          "Name": "FORWARD_SLASH",
+          "Label": "-",
+          "Name": "MINUS",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "/?"
+          "PrintableCharacters": "-_"
         },
         {
           "Code": 54,
@@ -833,7 +834,7 @@
           "PrintableCharacters": ""
         },
         {
-          "Code": 344,
+          "Code": 87,
           "Label": "Left Windows",
           "Name": "LEFT_WINDOWS",
           "Width": 1.5,

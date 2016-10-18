@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace LogitechLEDController
 {
@@ -35,14 +36,22 @@ namespace LogitechLEDController
         public Key GetNeighbour(RelativeKeyPosition pos)
         {
             if (pos == RelativeKeyPosition.CENTER) return this;
-            return keyboard.GetNeightbourOfKey(this, pos);
+            return keyboard.GetNeighbourOfKey(this, pos);
+        }
+        public bool HasNeighbour(RelativeKeyPosition pos)
+        {
+            if (pos == RelativeKeyPosition.CENTER) return true;
+            return (keyboard.GetNeighbourOfKey(this, pos) != null);
         }
 
         public bool CanPrintCharacter(string character)
         {
-            if (PrintableCharachters.Contains(character))
-                return true;
-            return false;
+            return PrintableCharachters.Contains(character);
+        }
+        public void SetLighting(int red,int green, int blue)
+        {
+            if (null == keyboard) throw new ArgumentException($"Keyboard is not set in key { Name }.");
+            keyboard.SetLightingForKey(this ,red, green, blue);
         }
     }
 
