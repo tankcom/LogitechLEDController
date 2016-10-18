@@ -17,7 +17,7 @@ namespace LogitechLEDController
 
         public int Height { get; private set; }
 
-        public string PrintableCharachters { get; private set; }
+        public string PrintableCharacters { get; private set; }
 
         public Keyboard keyboard { private get; set; }
 
@@ -29,7 +29,7 @@ namespace LogitechLEDController
             Label = label;
             Width = width;
             Height = height;
-            PrintableCharachters = characters;
+            PrintableCharacters = characters;
             keyboard = null;
         }
 
@@ -46,7 +46,7 @@ namespace LogitechLEDController
 
         public bool CanPrintCharacter(string character)
         {
-            return PrintableCharachters.Contains(character);
+            return PrintableCharacters.Contains(character);
         }
         public void SetLighting(int red,int green, int blue)
         {

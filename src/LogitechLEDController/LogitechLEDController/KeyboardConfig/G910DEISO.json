@@ -637,12 +637,12 @@
           "PrintableCharacters": "ä"
         },
         {
-          "Code": 94,
+          "Code": 93,
           "Label": "#",
           "Name": "HASHSIGN",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "#'"
+          "PrintableCharacters": "#"
         },
         {
           "Code": 75,
@@ -686,7 +686,16 @@
           "Height": 1,
           "PrintableCharacters": ""
         },
-
+        {
+          "Code": 86,
+          "Label": "arrow",
+          "Name": "ARROW",
+          "Width": 1,
+          "Height": 1,
+          "PrintableCharacters": "<",
+          "PrintableCharacters": ">"
+        },
+        
         {
           "Code": 44,
           "Label": "Y",
@@ -757,7 +766,7 @@
           "Name": "PERIOD",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": ".:"
+          "PrintableCharacters": "/.:"
         },
         {
           "Code": 53,
@@ -827,14 +836,14 @@
         },
         {
           "Code": 29,
-          "Label": "Right Control",
-          "Name": "RIGHT_CONTROL",
+          "Label": "Left Control",
+          "Name": "LEFT_CONTROL",
           "Width": 2,
           "Height": 1,
           "PrintableCharacters": ""
         },
         {
-          "Code": 87,
+          "Code": 347,
           "Label": "Left Windows",
           "Name": "LEFT_WINDOWS",
           "Width": 1.5,
@@ -855,7 +864,7 @@
           "Name": "SPACE",
           "Width": 6,
           "Height": 1,
-          "PrintableCharacters": ""
+          "PrintableCharacters": " "
         },
         {
           "Code": 312,

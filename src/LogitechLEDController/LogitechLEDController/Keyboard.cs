@@ -151,7 +151,7 @@ namespace LogitechLEDController
         public Key GetKeyByCharacter(string character)
         {
             foreach (Key key in GetAllKeys())
-                if (key.PrintableCharachters == character.ToLowerInvariant())
+                if (key.PrintableCharacters == character.ToLowerInvariant())
                     return key;
             return null;
         }
@@ -163,6 +163,7 @@ namespace LogitechLEDController
 
         public void SetLightingForKey(Key key, int red, int green, int blue)
         {
+
             sdk.SetKeyLighting(key.Code, red, green, blue);
         }
 
@@ -181,8 +182,8 @@ namespace LogitechLEDController
             {
                 var currentKey = GetKeyByCharacter(c);
                 currentKey.SetLighting(red, green, blue);
-                Thread.Sleep(500);
-                currentKey.SetLighting(0, 0, 0);
+                Thread.Sleep(70);
+                currentKey.SetLighting(10, 100, 100);
             }
         }
     }
