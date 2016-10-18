@@ -692,8 +692,8 @@
           "Name": "ARROW",
           "Width": 1,
           "Height": 1,
-          "PrintableCharacters": "<",
-          "PrintableCharacters": ">"
+          "PrintableCharacters": "<"
+          
         },
         
         {
