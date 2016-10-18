@@ -49,7 +49,16 @@ namespace LogitechLEDController
                         int code = key.Code;
                         string name = key.Name;
                         string label = key.Label;
-                        rowElements[x] = new Key(KeyType.NormalKey, code, name, label);
+                        int width = key.Width;
+                        int height = key.Height;
+                        string chars = key.PrintableCharacters;
+                        rowElements[x] = new Key(KeyType.NormalKey,
+                                                code,
+                                                name,
+                                                label,
+                                                width,
+                                                height,
+                                                chars);
                         x++;
                     }
                     keys[y] = rowElements;
