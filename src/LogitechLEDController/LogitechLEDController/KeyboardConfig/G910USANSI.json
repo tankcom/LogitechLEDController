@@ -1,0 +1,944 @@
+﻿{
+  "KeyboardName": "Logitech G910 Orion Spectrum",
+  "LayoutName": "US ANSI Layout",
+  "KeyboardKeys": {
+    "Rows": [
+      [
+        {
+          "Code": 65526,
+          "Label": "G6",
+          "Name": "G_6",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 65527,
+          "Label": "G7",
+          "Name": "G_7",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 65528,
+          "Label": "G8",
+          "Name": "G_8",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 65529,
+          "Label": "G9",
+          "Name": "G_9",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        }
+      ],
+      [
+        {
+          "Code": 1048561,
+          "Label": "G Logo",
+          "Name": "G_LOGO",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 1,
+          "Label": "Escape",
+          "Name": "ESC",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 59,
+          "Label": "F1",
+          "Name": "F1",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 60,
+          "Label": "F2",
+          "Name": "F2",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 61,
+          "Label": "F3",
+          "Name": "F3",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 62,
+          "Label": "F4",
+          "Name": "F4",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 63,
+          "Label": "F5",
+          "Name": "F5",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 64,
+          "Label": "F6",
+          "Name": "F6",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 65,
+          "Label": "F7",
+          "Name": "F7",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 66,
+          "Label": "F8",
+          "Name": "F8",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 67,
+          "Label": "F9",
+          "Name": "F9",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 68,
+          "Label": "F10",
+          "Name": "F10",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 87,
+          "Label": "F11",
+          "Name": "F11",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 88,
+          "Label": "F12",
+          "Name": "F12",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 311,
+          "Label": "Print Screen",
+          "Name": "PRINT_SCREEN",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 70,
+          "Label": "Scroll Lock",
+          "Name": "SCROLL_LOCK",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 69,
+          "Label": "Pause",
+          "Name": "PAUSE_BREAK",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        }
+      ],
+      [
+        {
+          "Code": 65521,
+          "Label": "G1",
+          "Name": "G_1",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 41,
+          "Label": "~",
+          "Name": "TILDE",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "~`"
+        },
+        {
+          "Code": 2,
+          "Label": "1",
+          "Name": "1",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "1!"
+        },
+        {
+          "Code": 3,
+          "Label": "2",
+          "Name": "2",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "2@"
+        },
+        {
+          "Code": 4,
+          "Label": "3",
+          "Name": "3",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "3#"
+        },
+        {
+          "Code": 5,
+          "Label": "4",
+          "Name": "4",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "4$"
+        },
+        {
+          "Code": 6,
+          "Label": "5",
+          "Name": "5",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "5%"
+        },
+        {
+          "Code": 7,
+          "Label": "6",
+          "Name": "6",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "6^"
+        },
+        {
+          "Code": 8,
+          "Label": "7",
+          "Name": "7",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "7&"
+        },
+        {
+          "Code": 9,
+          "Label": "8",
+          "Name": "8",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "8*"
+        },
+        {
+          "Code": 10,
+          "Label": "9",
+          "Name": "9",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "9("
+        },
+        {
+          "Code": 11,
+          "Label": "0",
+          "Name": "0",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "0)"
+        },
+        {
+          "Code": 12,
+          "Label": "-",
+          "Name": "MINUS",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "-_"
+        },
+        {
+          "Code": 13,
+          "Label": "=",
+          "Name": "EQUALS",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "=+"
+        },
+        {
+          "Code": 14,
+          "Label": "Backspace",
+          "Name": "BACKSPACE",
+          "Width": 2,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 338,
+          "Label": "Insert",
+          "Name": "INSERT",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 327,
+          "Label": "Home",
+          "Name": "HOME",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 329,
+          "Label": "Page Up",
+          "Name": "PAGE_UP",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 325,
+          "Label": "Numlock",
+          "Name": "NUM_LOCK",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 309,
+          "Label": "Numpad Slash",
+          "Name": "NUM_SLASH",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 55,
+          "Label": "Numpad Asterisk",
+          "Name": "NUM_ASTERISK",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 74,
+          "Label": "Numpad Minus",
+          "Name": "NUM_MINUS",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        }
+      ],
+      [
+        {
+          "Code": 65522,
+          "Label": "G2",
+          "Name": "G_2",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 15,
+          "Label": "Tabulator",
+          "Name": "TAB",
+          "Width": 1.5,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 16,
+          "Label": "Q",
+          "Name": "Q",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "q"
+        },
+        {
+          "Code": 17,
+          "Label": "W",
+          "Name": "W",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "w"
+        },
+        {
+          "Code": 18,
+          "Label": "E",
+          "Name": "E",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "e"
+        },
+        {
+          "Code": 19,
+          "Label": "R",
+          "Name": "R",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "r"
+        },
+        {
+          "Code": 20,
+          "Label": "T",
+          "Name": "T",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "t"
+        },
+        {
+          "Code": 21,
+          "Label": "Y",
+          "Name": "Y",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "y"
+        },
+        {
+          "Code": 22,
+          "Label": "U",
+          "Name": "U",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "u"
+        },
+        {
+          "Code": 23,
+          "Label": "I",
+          "Name": "I",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "i"
+        },
+        {
+          "Code": 24,
+          "Label": "O",
+          "Name": "O",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "o"
+        },
+        {
+          "Code": 25,
+          "Label": "P",
+          "Name": "P",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "p"
+        },
+        {
+          "Code": 26,
+          "Label": "[",
+          "Name": "OPEN_BRACKET",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "[{"
+        },
+        {
+          "Code": 27,
+          "Label": "]",
+          "Name": "CLOSE_BRACKET",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "]}"
+        },
+        {
+          "Code": 43,
+          "Label": "\\",
+          "Name": "BACKSLASH",
+          "Width": 1.5,
+          "Height": 1
+          "PrintableCharacters": "\\|"
+        },
+        {
+          "Code": 339,
+          "Label": "Delete",
+          "Name": "KEYBOARD_DELETE",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 335,
+          "Label": "End",
+          "Name": "END",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 337,
+          "Label": "Page Down",
+          "Name": "PAGE_DOWN",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 71,
+          "Label": "Numpad 7",
+          "Name": "NUM_SEVEN",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 72,
+          "Label": "Num 8",
+          "Name": "NUM_EIGHT",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 73,
+          "Label": "Numpad 9",
+          "Name": "NUM_NINE",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 78,
+          "Label": "Numpad Plus",
+          "Name": "NUM_PLUS",
+          "Width": 1,
+          "Height": 2
+          "PrintableCharacters": ""
+        }
+      ],
+      [
+        {
+          "Code": 65523,
+          "Label": "G3",
+          "Name": "G_3",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 74,
+          "Label": "Capslock",
+          "Name": "CAPS_LOCK",
+          "Width": 2,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 30,
+          "Label": "A",
+          "Name": "A",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "a"
+        },
+        {
+          "Code": 31,
+          "Label": "S",
+          "Name": "S",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "s"
+        },
+        {
+          "Code": 32,
+          "Label": "D",
+          "Name": "D",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "d"
+        },
+        {
+          "Code": 33,
+          "Label": "F",
+          "Name": "F",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "f"
+        },
+        {
+          "Code": 34,
+          "Label": "G",
+          "Name": "G",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "g"
+        },
+        {
+          "Code": 35,
+          "Label": "H",
+          "Name": "H",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "h"
+        },
+        {
+          "Code": 36,
+          "Label": "J",
+          "Name": "J",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "j"
+        },
+        {
+          "Code": 37,
+          "Label": "K",
+          "Name": "K",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "k"
+        },
+        {
+          "Code": 38,
+          "Label": "L",
+          "Name": "L",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "l"
+        },
+        {
+          "Code": 39,
+          "Label": ";",
+          "Name": "SEMICOLON",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ";:"
+        },
+        {
+          "Code": 40,
+          "Label": "'",
+          "Name": "APOSTROPHE",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "'\""
+        },
+        {
+          "Code": 28,
+          "Label": "Enter",
+          "Name": "ENTER",
+          "Width": 2,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 75,
+          "Label": "Numpad 4",
+          "Name": "NUM_FOUR",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 76,
+          "Label": "Numpad 5",
+          "Name": "NUM_FIVE",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 77,
+          "Label": "Numpad 6",
+          "Name": "NUM_SIX",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        }
+      ],
+      [
+        {
+          "Code": 65524,
+          "Label": "G4",
+          "Name": "G_4",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 42,
+          "Label": "Left Shift",
+          "Name": "LEFT_SHIFT",
+          "Width": 3,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 44,
+          "Label": "Z",
+          "Name": "Z",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "z"
+        },
+        {
+          "Code": 45,
+          "Label": "X",
+          "Name": "X",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "x"
+        },
+        {
+          "Code": 46,
+          "Label": "C",
+          "Name": "C",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "c"
+        },
+        {
+          "Code": 47,
+          "Label": "V",
+          "Name": "V",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "v"
+        },
+        {
+          "Code": 48,
+          "Label": "B",
+          "Name": "B",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "b"
+        },
+        {
+          "Code": 49,
+          "Label": "N",
+          "Name": "N",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "n"
+        },
+        {
+          "Code": 50,
+          "Label": "M",
+          "Name": "M",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "m"
+        },
+        {
+          "Code": 51,
+          "Label": ",",
+          "Name": "COMMA",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ",<"
+        },
+        {
+          "Code": 52,
+          "Label": ".",
+          "Name": "PERIOD",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ".>"
+        },
+        {
+          "Code": 53,
+          "Label": "/",
+          "Name": "FORWARD_SLASH",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": "/?"
+        },
+        {
+          "Code": 54,
+          "Label": "Right Shift",
+          "Name": "RIGHT_SHIFT",
+          "Width": 3,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 328,
+          "Label": "Up Arrow",
+          "Name": "ARROW_UP",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 79,
+          "Label": "Numpad 1",
+          "Name": "NUM_ONE",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 80,
+          "Label": "Numpad 2",
+          "Name": "NUM_TWO",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 81,
+          "Label": "Numpad 3",
+          "Name": "NUM_THREE",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 284,
+          "Label": "Numpad Enter",
+          "Name": "NUM_ENTER",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        }
+      ],
+      [
+        {
+          "Code": 65525,
+          "Label": "G5",
+          "Name": "G_5",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 29,
+          "Label": "Right Control",
+          "Name": "RIGHT_CONTROL",
+          "Width": 2,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 344,
+          "Label": "Left Windows",
+          "Name": "LEFT_WINDOWS",
+          "Width": 1.5,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 56,
+          "Label": "Left Alt",
+          "Name": "LEFT_ALT",
+          "Width": 1.5,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 57,
+          "Label": "Space",
+          "Name": "SPACE",
+          "Width": 6,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 312,
+          "Label": "Right Alt",
+          "Name": "RIGHT_ALT",
+          "Width": 1.5,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 348,
+          "Label": "Right Windows",
+          "Name": "RIGHT_WINDOWS",
+          "Width": 1.5,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 349,
+          "Label": "Context Menu",
+          "Name": "APPLICATION_SELECT",
+          "Width": 1.5,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 285,
+          "Label": "Right Control",
+          "Name": "RIGHT_CONTROL",
+          "Width": 2,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 331,
+          "Label": "Left Arrow",
+          "Name": "ARROW_LEFT",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 336,
+          "Label": "Down Arrow",
+          "Name": "ARROW_DOWN",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 333,
+          "Label": "Right Arrow",
+          "Name": "ARROW_RIGHT",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 82,
+          "Label": "Numpad 0",
+          "Name": "NUM_ZERO",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        },
+        {
+          "Code": 83,
+          "Label": "Numpad Period",
+          "Name": "NUM_PERIOD",
+          "Width": 1,
+          "Height": 1
+          "PrintableCharacters": ""
+        }
+      ],
+      [
+        {
+          "Code": 1048562,
+          "Label": "G910",
+          "Name": "G_BADGE",
+          "Width": 3,
+          "Height": 1
+          "PrintableCharacters": ""
+        }
+      ]
+    ]
+  }
+}

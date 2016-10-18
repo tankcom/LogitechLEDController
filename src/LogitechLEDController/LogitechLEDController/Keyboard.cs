@@ -64,7 +64,7 @@ namespace LogitechLEDController
                 default:
                     return null; // what to do here
             }
-    }
+        }
 
         public KeyCoordinates GetCoordinatesOfKey(Key key)
         {

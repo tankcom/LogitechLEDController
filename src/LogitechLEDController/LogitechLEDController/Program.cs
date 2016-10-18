@@ -7,7 +7,7 @@ namespace LogitechLEDController
     {
         static void Main(string[] args)
         {
-            var configPath = @"J:\projects\LogitechLEDController\src\LogitechLEDController\ConsoleApplication1\KeyboardConfig\DefaultLayout.json";
+            var configPath = @"J:\projects\LogitechLEDController\src\LogitechLEDController\LogitechLEDController\KeyboardConfig\G910USANSI.json";
             var oreo = ConfigParser.ParseConfigFromFile(configPath);
 
             Console.ReadLine();
