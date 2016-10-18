@@ -151,7 +151,7 @@ namespace LogitechLEDController
         public Key GetKeyByCharacter(string character)
         {
             foreach (Key key in GetAllKeys())
-                if (key.PrintableCharacters == character.ToLowerInvariant())
+                if (key.CanPrintCharacter(character.ToLowerInvariant()))
                     return key;
             return null;
         }

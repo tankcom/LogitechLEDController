@@ -13,13 +13,13 @@ namespace LogitechLEDController
 
             // var z = orion.GetKeyByCharacter("g");
 
-            var z = orion.GetKeyByCharacter("<");
+            //var z = orion.GetKeyByCharacter("<");
            
-              orion.SetLightingForKey(z, 100, 10, 10);
-            // var text = "qwertzuiopü+";
-            //orion.TypeText(text, 100, 0, 60); 
+            //  orion.SetLightingForKey(z, 100, 10, 10);
+           //  var text = "qwertzuiopü+sda-:F;asldlkashdsadasdas789789-*/-*/+3,0123789.-,.-,.-,-.!`/§$%&/()=?";
+          //  orion.TypeText(text, 100, 0, 60); 
 
-            /*
+            
             var currentRow = orion.GetKeyByLabel("G6");
             while (true)
             {
@@ -27,7 +27,7 @@ namespace LogitechLEDController
                 if (!currentRow.HasNeighbour(RelativeKeyPosition.BOTTOM_CENTER)) break;
                 currentRow = currentRow.GetNeighbour(RelativeKeyPosition.BOTTOM_CENTER);
             }
-*/
+
             Console.ReadLine();
         }
 
