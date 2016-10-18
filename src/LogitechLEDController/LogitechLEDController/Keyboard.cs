@@ -8,7 +8,7 @@ namespace LogitechLEDController
         public string KeyboardName { get; set; }
         public string LayoutName { get; set; }
 
-        private List<Key> keys;
+        private Key[,] keys;
         private LogitechLEDSDKWrapper sdk;
 
         public Keyboard(string keyboardName, string layoutName)
@@ -21,13 +21,18 @@ namespace LogitechLEDController
             KeyboardName = keyboardName;
             LayoutName = layoutName;
 
-            keys = new List<Key>();
+            keys = null;
             sdk = new LogitechLEDSDKWrapper();
         }
 
-        public void SetKeys(List<Key> newKeys)
+        public Key getNeightbour(Key key, KeyPosition pos)
         {
-            keys.Clear();
+            
+        }
+
+        public void SetKeys(Key[,] newKeys)
+        {
+            // Previous keys will be overwritten!
             keys = newKeys;
         }
 

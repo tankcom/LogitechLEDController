@@ -19,7 +19,7 @@ namespace LogitechLEDController
             }
             catch (Exception e)
             {
-                return null;
+                return null; // TODO handle exceptions
             }
             return ConfigParser.ParseConfigFromString(content);
         }
@@ -35,8 +35,11 @@ namespace LogitechLEDController
                 string layoutName = config.LayoutName;
                 var keyboard = new Keyboard(keyboardName, layoutName);
 
-                var keys = new List<Key>();
+                Key[,] keys = new Key[,]{};
                 var rows = config.KeyboardKeys.Rows;
+
+                int x = 0;
+                int y = 0;
                 foreach(var row in rows)
                 {
                     foreach(var key in row)
@@ -45,8 +48,10 @@ namespace LogitechLEDController
                         string name = key.Name;
                         string label = key.Label;
                         var k = new Key(code, name, label);
-                        keys.Add(k);
+                        keys[x, y] = k; // TODO this could throw an error if the array is not big enough
+                        x++;
                     }
+                    y++;
                 }
 
                 keyboard.SetKeys(keys);
@@ -54,7 +59,7 @@ namespace LogitechLEDController
             }
             catch(Exception e)
             {
-                
+                return null; // TODO handle exceptions
             }
             return null;
         }
